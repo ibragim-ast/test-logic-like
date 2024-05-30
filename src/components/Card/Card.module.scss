@@ -1,0 +1,25 @@
+.card {
+  min-width: 177px;
+  max-width: 393px;
+  border-radius: 18px;
+  box-shadow: 0 10px 13px -4px rgba(35, 35, 95, 0.19);
+  height: 210px;
+  cursor: pointer;
+
+  img {
+    width: 144px;
+    height: 144px;
+  }
+
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1;
+  }
+}
